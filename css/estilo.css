@@ -172,4 +172,16 @@ section.mapa iframe{
 	height: 100%;
 
 }
+section.titulo h1{
+	font-family: "lilita one", sans-serif;
+	font-size: 2vw;
+
+}
+section.conteudo ul{
+	font-family: "arial black",sans-serif;
+	font-size: 1.5vw;
+	height: 37vw;
+	width: 10vh;
+
+}
 
