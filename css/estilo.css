@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
 *{
 	margin: 0px;
@@ -7,6 +7,13 @@
 }
 body{
 	background-image: url(../img/fundo.webp);
+	background-repeat: no-repeat;
+	background-size: 100vw 100vh;
+	background-attachment: fixed;
+
+}
+body.fundo2{
+	background-image: url(../img/fundopret.jpg);
 	background-repeat: no-repeat;
 	background-size: 100vw 100vh;
 	background-attachment: fixed;
@@ -172,16 +179,108 @@ section.mapa iframe{
 	height: 100%;
 
 }
-section.titulo h1{
+section.verde{
+	width: 90vw;
+	height: 10vh;
+	background-color: green;
+	margin-left: 5vw;
+
+}
+section.verde h1{
+	color: whitesmoke;
+}
+section.laranja{
+	width: 90vw;
+	margin-left: 5vw;
+	height: 60vh;
+	margin-top: 3vh;
+	background-color: orange;
+}
+#azulzinha{
+	width: 50%;
+	height: 100%;
+	background-color: lightblue;
+
+}
+#azul{
+	width: 50%;
+	height: 100%;
+	background-color: darkblue;
+	flex-direction: column;
+}
+#amarela{
+	width: 100%;
+	height: 50%;
+	background-color: yellow;
+	flex-direction: row;
+}
+#vermelho{
+	width: 100%;
+	height: 50%;
+	background-color: red;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	display: flex;
+}
+#roxo{
+	height: 100%;
+	width: 50%;
+	background-color: purple;
+
+}
+#rosa{
+	height: 100%;
+	width: 50%;
+	background-color: pink;
+}
+section.preto{
+	width: 90vw;
+	height: 10vh;
+	margin-left: 5vw;
+	margin-top: 3vh;
+	background-color: black;
+}
+section.preto div a{
+	color: whitesmoke;
+	font-family: "arial black", sans-serif;
+}
+
+#clipe{
+ width: 50%;
+ height: 100%;
+}
+
+#esq{
 	font-family: "lilita one", sans-serif;
-	font-size: 2vw;
+	width: 50%;
+	height: auto;
+	box-shadow: 3px 3px 3px black;
+	background-image: url(../img/papel.jpg);
+	font-size: 20pt;
+	text-align: center;
+	padding: 1%;
+	border-radius: 30px;
+}
+#clipe video{
+	max-width:90% ;
+	max-height: 90%;
+	height: auto;
+	width: auto;
+	margin-left: 3vw;
+	border-radius: 30px;
 
 }
-section.conteudo ul{
-	font-family: "arial black",sans-serif;
-	font-size: 1.5vw;
-	height: 37vw;
-	width: 10vh;
-
+#info{
+	font-family: "arial black", sans-serif;
+	background-image: url(../img/papel.jpg);
+	border-radius: 20px;
+	box-shadow: 3px 3px 3px black;
+	padding: 1%;
+	height: 13vh;
+	margin-left: 3vw;
+	width: 20vw;
+	
 }
+
 
